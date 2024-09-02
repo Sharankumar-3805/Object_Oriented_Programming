@@ -14,7 +14,7 @@ namespace Object_Oriented_Programming
         private int _STMarks = 500;
         public string MiddleName { get; private set; }  // Auto-Implemented properties the combination of private variables and getters and setters
         
-        public Student(string Mname)
+        public Student(string Mname) 
         {
             
             MiddleName = Mname;
