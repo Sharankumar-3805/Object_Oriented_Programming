@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Object_Oriented_Programming.Anonymous_Functions</StartupObject>
+    <StartupObject>Object_Oriented_Programming.MultipleInheritence_interface</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,15 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstarction_in_CSharp.cs" />
     <Compile Include="AccessSpecifier.cs" />
     <Compile Include="Anonymous_Functions.cs" />
     <Compile Include="Delegates_in_CSharp.cs" />
     <Compile Include="Encapsulation.cs" />
     <Compile Include="Indexer.cs" />
     <Compile Include="Inheritance_in_Csharp.cs" />
+    <Compile Include="Lambda_Expresions.cs" />
     <Compile Include="MethodHiding.cs" />
     <Compile Include="Method_Overrididng.cs" />
     <Compile Include="Multicast_Delegates.cs" />
+    <Compile Include="MultipleInheritence_interface.cs" />
     <Compile Include="Multiple_Delegates.cs" />
     <Compile Include="Operator_Overloading_in_C#.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
