@@ -10,7 +10,7 @@
     <AssemblyName>Object_Oriented_Programming</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Object_Oriented_Programming.MultipleInheritence_interface</StartupObject>
+    <StartupObject>Object_Oriented_Programming.Param_Demo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,18 +51,28 @@
     <Compile Include="Anonymous_Functions.cs" />
     <Compile Include="Delegates_in_CSharp.cs" />
     <Compile Include="Encapsulation.cs" />
+    <Compile Include="Exception_in_CSharp.cs" />
+    <Compile Include="Format_Exception_CSharp.cs" />
     <Compile Include="Indexer.cs" />
+    <Compile Include="Index_Out_of_Range_Exception.cs" />
     <Compile Include="Inheritance_in_Csharp.cs" />
     <Compile Include="Lambda_Expresions.cs" />
     <Compile Include="MethodHiding.cs" />
     <Compile Include="Method_Overrididng.cs" />
     <Compile Include="Multicast_Delegates.cs" />
+    <Compile Include="MultipleCatchBlock_CSahrp.cs" />
     <Compile Include="MultipleInheritence_interface.cs" />
     <Compile Include="Multiple_Delegates.cs" />
+    <Compile Include="Null_reference_Exception.cs" />
     <Compile Include="Operator_Overloading_in_C#.cs" />
+    <Compile Include="Param_Demo.cs" />
+    <Compile Include="PartialClass_CSharp.cs" />
+    <Compile Include="PartialClass_CSharp1.cs" />
+    <Compile Include="Partial_Class.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties_in_Csharp.cs" />
     <Compile Include="Sealed_Class.cs" />
+    <Compile Include="Throw_Throws.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
