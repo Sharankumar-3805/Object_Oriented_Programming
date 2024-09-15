@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Object_Oriented_Programming.EnumsInCSharp</StartupObject>
+    <StartupObject>Object_Oriented_Programming.Multicast_Delegates</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="Delegates_in_CSharp.cs" />
     <Compile Include="Encapsulation.cs" />
     <Compile Include="EnumsInCSharp.cs" />
+    <Compile Include="EnumWithSwitch.cs" />
     <Compile Include="Exception_in_CSharp.cs" />
     <Compile Include="Format_Exception_CSharp.cs" />
     <Compile Include="Indexer.cs" />

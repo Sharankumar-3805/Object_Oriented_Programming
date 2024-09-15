@@ -17,22 +17,22 @@ namespace Object_Oriented_Programming
         public static void Sub(int num1 , int num2)
         {
             int res = num1 - num2;
-            Console.WriteLine("Addition is :"+res);
+            Console.WriteLine("Substraction is :"+res);
         }
         public static void Mult(int num1 , int num2)
         {
             int res = num1 * num2;
-            Console.WriteLine("Addition is :"+res);
+            Console.WriteLine("Multiplication is :"+res);
         }
         public static void Div(int num1 , int num2)
         {
             int res = num1 / num2;
-            Console.WriteLine("Addition is :"+res);
+            Console.WriteLine("Division is :"+res);
         }
         public static void Mod(int num1 , int num2)
         {
             int res = num1 % num2;
-            Console.WriteLine("Addition is :"+res);
+            Console.WriteLine("Modulus is :"+res);
         }
         static void Main()
         {
